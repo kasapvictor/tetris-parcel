@@ -1,0 +1,23 @@
+{
+  "name": "parcel-tetris",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel dev/index.html --out-dir prod --open",
+    "build": "rm -rf ./prod/ && NODE_ENV=production parcel build dev/index.html --out-dir prod --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kasapvictor@bitbucket.org/kasapvictor/parcel-tetris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kasapvictor/parcel-tetris#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.34.0"
+  }
+}
